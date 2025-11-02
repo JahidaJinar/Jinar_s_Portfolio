@@ -814,6 +814,203 @@ textarea.form-control {
   }
 }
 
+/* Add these styles to your existing style.css file */
+
+/* Hero Section Hover Effects */
+.hero-img:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 20px 40px rgba(108, 99, 255, 0.3);
+}
+
+.btn:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(108, 99, 255, 0.4);
+}
+
+/* About Section Hover Effects */
+.about-text:hover {
+  transform: translateX(10px);
+}
+
+.stat-box:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--primary);
+}
+
+.stat-box:hover .stat-number {
+  transform: scale(1.2);
+  color: var(--secondary);
+}
+
+/* Education Section Hover Effects */
+.timeline-item:hover {
+  transform: translateX(10px);
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid var(--primary);
+}
+
+.timeline-item:nth-child(even) .timeline-content:hover {
+  border-left: none;
+  border-right: 4px solid var(--primary);
+}
+
+.timeline-circle:hover {
+  transform: scale(1.3);
+  box-shadow: 0 0 20px var(--primary);
+}
+
+/* Skills Section Hover Effects */
+.skill-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--primary);
+}
+
+.skill-card:hover .skill-icon {
+  transform: scale(1.2) rotate(5deg);
+  color: var(--secondary);
+}
+
+.skill-card:hover .skill-progress {
+  background: var(--secondary);
+  box-shadow: 0 0 10px var(--primary);
+}
+
+/* Projects Section Hover Effects */
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.project-card:hover .project-img {
+  transform: scale(1.1);
+}
+
+.project-card:hover .project-title {
+  color: var(--primary);
+}
+
+.tech-tag:hover {
+  background: var(--primary);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.project-link:hover {
+  background: var(--secondary);
+  transform: translateY(-3px) scale(1.05);
+}
+
+/* Achievements Section Hover Effects */
+.achievement-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--primary);
+}
+
+.achievement-card:hover .achievement-icon {
+  transform: scale(1.2) rotate(5deg);
+  color: var(--secondary);
+}
+
+.achievement-card:hover .achievement-year {
+  background: var(--primary);
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Contact Section Hover Effects */
+.contact-item:hover {
+  transform: translateX(10px);
+}
+
+.contact-item:hover .contact-icon {
+  transform: scale(1.2) rotate(5deg);
+  color: var(--secondary);
+}
+
+.form-control:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.form-control:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(108, 99, 255, 0.2);
+}
+
+.submit-btn:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(108, 99, 255, 0.4);
+}
+
+/* Footer Hover Effects */
+.social-link:hover {
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 10px 20px rgba(108, 99, 255, 0.3);
+}
+
+/* Section container hover effects */
+section:hover .section-title::after {
+  width: 100px;
+  background: var(--secondary);
+}
+
+/* Smooth transitions for all hover effects */
+.hero-img,
+.btn,
+.about-text,
+.stat-box,
+.timeline-item,
+.timeline-content,
+.timeline-circle,
+.skill-card,
+.skill-icon,
+.skill-progress,
+.project-card,
+.project-img,
+.project-title,
+.tech-tag,
+.project-link,
+.achievement-card,
+.achievement-icon,
+.achievement-year,
+.contact-item,
+.contact-icon,
+.form-control,
+.submit-btn,
+.social-link {
+  transition: all 0.3s ease;
+}
+
+/* Add some delay for staggered hover effects */
+.stat-box:nth-child(2):hover,
+.timeline-item:nth-child(2):hover,
+.skill-card:nth-child(2):hover,
+.project-card:nth-child(2):hover,
+.achievement-card:nth-child(2):hover {
+  transition-delay: 0.05s;
+}
+
+.stat-box:nth-child(3):hover,
+.timeline-item:nth-child(3):hover,
+.skill-card:nth-child(3):hover,
+.project-card:nth-child(3):hover {
+  transition-delay: 0.1s;
+}
+
+.stat-box:nth-child(4):hover,
+.timeline-item:nth-child(4):hover,
+.skill-card:nth-child(4):hover,
+.project-card:nth-child(4):hover {
+  transition-delay: 0.15s;
+}
+
 /* TV Screen Styles */
 @media (min-width: 1600px) {
   .container {
