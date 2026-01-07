@@ -109,7 +109,7 @@ The footer displays four social media icons linking to GitHub, LinkedIn, Twitter
 
 ## Special Features Users Get: ##
 
-**Interactive Features:**
+### Interactive Features: ###
 
 ***Dark/Light Mode Toggle*** - Can switch themes
 
