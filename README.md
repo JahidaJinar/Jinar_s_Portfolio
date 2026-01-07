@@ -127,6 +127,8 @@ The footer displays four social media icons linking to GitHub, LinkedIn, Twitter
 
 ***CV Download*** - One-click PDF download
 
+***Responsive Design*** - Works perfectly on all devices (mobile, tablet, desktop)
+
 # Author Information #
 **Jahida Khanom Jinar**
 
