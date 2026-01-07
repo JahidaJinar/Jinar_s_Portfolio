@@ -127,7 +127,7 @@ The footer displays four social media icons linking to GitHub, LinkedIn, Twitter
 
 ***CV Download*** - One-click PDF download
 
-# Author #
+# Author Information #
 **Jahida Khanom Jinar**
 
 B.Sc in Educational Technology & Engineering
