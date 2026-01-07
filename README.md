@@ -29,8 +29,12 @@ A responsive personal portfolio website designed and developed to showcase my sk
 
 ## Live Website Link (Vercel) ##
 
+[jinar-s-portfolio.vercel.app ](https://jinar-s-portfolio.vercel.app/)
+
 ## What's Inside the Website - What Users Will See ##
+
 ### Home Page: ###
+
 **Top Navigation:**
 
 1. Logo: "Portfolio"
